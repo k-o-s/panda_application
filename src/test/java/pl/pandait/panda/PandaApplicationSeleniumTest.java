@@ -69,6 +69,6 @@ public class PandaApplicationSeleniumTest {
 
     @AfterEach
     public void after() {
-        driver.close();
+        driver.quit();
     }
 }
